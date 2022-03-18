@@ -1,0 +1,7 @@
+
+{
+    "markdown.marp.themes": [
+        "./themes/my-theme.css"
+    ],
+    "files.autoSave": "afterDelay"
+}

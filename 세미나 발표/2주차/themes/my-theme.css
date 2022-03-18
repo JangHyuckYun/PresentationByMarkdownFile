@@ -1,0 +1,10 @@
+/* @theme my-theme */
+@import "default";
+
+h1 {
+    color:red;
+}
+
+section {
+    background: #fa0;
+}
