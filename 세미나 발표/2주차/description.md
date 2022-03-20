@@ -6,6 +6,9 @@ theme: my-theme
 
 ---
 
+
+
+
 # 리액트 컴포넌트 생명주기
 
 ###### 기술연구소 윤장혁
@@ -17,7 +20,9 @@ theme: my-theme
 1. 사전지식
    1. class
    2. 객체, 배열 구조 분해 할당이란
-2. 리액트 컴포넌트 생명주기
+2. 리액트 기본 사용법
+   1. 작성법
+   2. event 처리
 
 ---
 
@@ -114,14 +119,19 @@ console.log(apple, banana, orange); // result: "Apple", "Banana", ["BlackOrange"
 
 ---
 
-# 3. 리액트 컴포넌트 생명주기
+# 리액트 기본 사용법
 
-`컴포넌트 생명주기(lifecycle)`란 컴포넌트가 페이지 렌더링 되기 위해 준비하는 과정부터 제거될 때까지의 기간을 뜻한다.
-클래스형 컴포넌트는 이러한 생명주기 중 특정 시점에 대해 원하는 구문을 실행할 수 있도록 `생명주기 메서드`를 지원한다.
+![contain vertical](./images/indexJs_1.png)
 
-![w:1150px](./images/component_render_tree.png)
+![bg right bottom](./images/appJs_1.png)
 
 ---
 
+![result_1](./images/result_1.png)
 
+---
+
+## State
+
+---
 
