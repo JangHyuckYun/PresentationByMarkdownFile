@@ -28,7 +28,7 @@ backgroundColor:#fff
 | Commit Message Template | github 연동해서 사용할 때, Commit Message를 템플릿처럼 지정하고 가져와서 사용할 수 있다. |
 | Lombok | 자바에서 보일러플레이트 코드(Getter, Setter, toString) 등 불필요하게 반복적인 요소 간편하게 어노테이션으로 설정이 가능한 라이브러리 
 
-> https://excited-boot-af8.notion.site/Intellij-a97f96656f9e4958bd63544d6099669e
+> [정리 페이지](https://excited-boot-af8.notion.site/Intellij-a97f96656f9e4958bd63544d6099669e)
 
 ---
 
@@ -41,5 +41,31 @@ backgroundColor:#fff
 # 단축키
 
 | 단축키 이름 | 단축키 설명 |
-| --- | --- |
-| Move Line Up or Down | 커서 있는 라인 아래 또는 위로 이동
+|:------------:|:-------------------:| 
+| Alt + 1 | 폴더목록창 열기  |
+| Alt + 0 | 커밋창 열기 |
+| Alt + f12 | 터미널 |
+| Alt + 위 or 아래 | 함수 or 메서드 왔다갔다 |
+| Alt + shift + 위아래 | 한 줄 코드 위 or 아래 이동 |
+| Shift + Home or End | 커서 기준으로 전체 선택 |
+| Ctrl + 좌우 | 부분적인 코드 선택 |
+
+---
+
+| 단축키 이름 | 단축키 설명 |
+|:------------:|:-------------------:| 
+| Ctrl + d | 코드 복사 |
+| Ctrl + n | 생성관련 작업을 원할 때 |
+| Ctrl + shift + t | 테스트, 본코드 왔다갔다 |
+| Ctrl + shift + - | 전체 접기 |
+| Ctrl + shift + + | 전체 접기 풀기 |
+
+---
+
+## Ctrl + W 탭 닫기 설정
+
+Shift * 2 -> keymap 입력 후 Enter -> "Close Tab" 검색 -> 아래 첫번째 사진 부분 더블 클릭
+
+![close_tab_1](./images/closeTab_1.png)
+![close_tab_2](./images/closeTab_2.png)
+![close_tab_3](./images/closeTab_3.png)

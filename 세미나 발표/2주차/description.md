@@ -9,7 +9,7 @@ theme: my-theme
 
 
 
-# 리액트 컴포넌트 생명주기
+# :pencil2: 리액트 기본 사용법
 
 ###### 기술연구소 윤장혁
 
@@ -22,7 +22,6 @@ theme: my-theme
    2. 객체, 배열 구조 분해 할당이란
 2. 리액트 기본 사용법
    1. 작성법
-   2. event 처리
 
 ---
 
@@ -117,21 +116,28 @@ const { apple, banana, orange } = word_object;
 console.log(apple, banana, orange); // result: "Apple", "Banana", ["BlackOrange", "RedOrange"] 
 ```
 
+<br />
+<br />
+
+>  - javascript에서의 객체(object)는 0개 이상의 요소(property)로 구성된 집합.
+>  - 요소(property)는 키(key)와 값(value)로 구성되어있다.
+
 ---
 
-# 리액트 기본 사용법
+# 3. 리액트 기본 사용법
 
 ![contain vertical](./images/indexJs_1.png)
 
-![bg right bottom](./images/appJs_1.png)
+![bg right contain](./images/appJs_1.png)
 
 ---
 
-![result_1](./images/result_1.png)
+ - 클릭 전
+![result_1](./images/result_1_before.png)
+
+ - 클릭 후
+![result_1](./images/result_1_after.png)
 
 ---
 
-## State
-
----
-
+# 감사합니다.
